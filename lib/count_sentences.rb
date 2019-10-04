@@ -23,7 +23,7 @@ class String
     # binding.pry
     # self.split(/[!.?]/).count 
     delimiters = [".", "?", "!"]
-    self.split(Regexp.union(delimiters))
+    self.split(Regexp.union(delimiters)).count
   end
 end
 
