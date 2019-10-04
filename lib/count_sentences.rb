@@ -4,7 +4,6 @@ class String
 
   def sentence?
     # true if string ends in period
-    # else false 
     self.end_with?(".")
   end
 
