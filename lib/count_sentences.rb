@@ -22,7 +22,6 @@ class String
     #goal: return # of sentences 
     binding.pry
     self.split(/[!.?]/).count
-    
   end
 end
 
