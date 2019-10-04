@@ -20,6 +20,7 @@ class String
   def count_sentences
     #goal: return # of sentences 
     delimiters = [". ", "? ", "! "]
+    # returns the # sentences in a complex string
     self.split(Regexp.union(delimiters)).count
   end
 end
