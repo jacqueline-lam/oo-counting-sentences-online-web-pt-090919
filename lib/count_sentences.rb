@@ -22,7 +22,7 @@ class String
     #goal: return # of sentences 
     # binding.pry
     # self.split(/[!.?]/).count 
-    delimiters = [".", "?", "!"]
+    delimiters = [". ", "? ", "! "]
     self.split(Regexp.union(delimiters)).count
   end
 end
